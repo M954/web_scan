@@ -1,0 +1,11 @@
+POST /aiscanner/login.php HTTP/1.1
+Host: www.aisec.cn
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://www.aisec.cn/aiscanner/login.php?msg=%25E8%25AF%25B7%25E5%2585%2588%25E7%2599%25BB%25E5%25BD%2595&t=1513326616
+Origin: http://www.aisec.cn
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) dummy Safari/537.21
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 56
+Cookie: PHPSESSID=80f42bb173a13296cb79206479f9e3d0; domain=www.aisec.cn; path=/
+
+username=&password=&imageCode=&signIn=%E7%99%BB%E5%BD%95

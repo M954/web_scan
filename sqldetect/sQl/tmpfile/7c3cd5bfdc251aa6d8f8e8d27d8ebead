@@ -1,0 +1,11 @@
+POST /demo/aisec/login2.php HTTP/1.1
+Host: demo.aisec.cn
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://demo.aisec.cn/demo/aisec/login2.php
+Origin: http://demo.aisec.cn
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) dummy Safari/537.21
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 19
+Cookie: 
+
+username=&password=

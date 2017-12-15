@@ -1,0 +1,23 @@
+POST /demo/aisec/post_link.php HTTP/1.1
+Host: demo.aisec.cn
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://demo.aisec.cn/demo/aisec/
+Origin: http://demo.aisec.cn
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) dummy Safari/537.21
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytsOaBLD3klGddsZD
+Content-Length: 322
+Cookie: u=guest; domain=demo.aisec.cn; path=/demo/aisec/
+
+------WebKitFormBoundarytsOaBLD3klGddsZD
+Content-Disposition: form-data; name="id"
+
+1
+------WebKitFormBoundarytsOaBLD3klGddsZD
+Content-Disposition: form-data; name="msg"
+
+abc
+------WebKitFormBoundarytsOaBLD3klGddsZD
+Content-Disposition: form-data; name="B1"
+
+提交
+------WebKitFormBoundarytsOaBLD3klGddsZD--

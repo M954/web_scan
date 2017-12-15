@@ -1,0 +1,9 @@
+POST /demo/aisec/ajax_link.php HTTP/1.1
+Host: demo.aisec.cn
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) dummy Safari/537.21
+Referer: http://demo.aisec.cn/demo/aisec/
+Origin: http://demo.aisec.cn
+Accept: */*
+Content-Length: 0
+Cookie: 
+
