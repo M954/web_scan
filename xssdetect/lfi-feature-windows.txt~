@@ -1,0 +1,27 @@
+[Windows]：影响Windows操作环境的部分，包括在启动Windows时执行哪一个应用程序，警告声音的设置、窗口边框的宽度、键盘响应的速度、鼠标器设置以及将文件定义为文档或程序等。
+[Desktop]：控制系统界面显示形式及窗口和鼠标器的位置。
+[Extensions]：联结特定的文件类型与相应的应用程序。
+[Intl]：描述怎样为除美国外的其它国家显示有关的文件项目。
+[Windows Help]：列出有关HELP窗口及对话窗的默认尺寸、布局、文本颜色等设置。
+[Font Substitue]：列出Windows可识别的互换字体。
+[TureType]：使用和显示TrueType字体的可选设置。
+[Sounds]：为每个系统事件设计的声音文件列表。
+[MCI Extensions]：把MEDIA控制接口设备同特定文件类型联系起来。
+[Compatibility]：用于解决Windows 98和Windows 3.x之间的差异所引起的兼容性问题。
+[Compatibility32]：用于解决Windows 98和Windows 3.X之间的差异所引起的32位磁盘存取兼容性问题。
+[MCI Compatibility]：用于Windows 98中文版的MCI设备兼容性问题。
+[Module Compatibility]：用于Windows 98中文版的模块兼容性问题。
+[IME Compatibility]：用于Windows 98中文版的输入法与应用程序的兼容性问题。
+[Pscript.Drv]：描述PostScrip打印机的ATM字库状况。
+[Fonts]：描述Windows装入的屏幕字体文件。
+Embedding：列出目标联接与嵌入(OLE)使用的服务器目标。
+[Colors]：定义Windows的显示颜色。
+[PrinterPorts]：Windows将要访问的激活或非激活的输出设备。
+[Ports]：描述中文Windows 98的可用端口。
+[Mail]：描述Microsoft Mail以及Microsoft Exchange的使用参数。
+[Devices]：与旧版本Windows的应用程序兼容的激活输出设备。
+[Programs]：当用户打开多个数据文件时，该段可为Windows查找相应程序文件提供附加的路径。
+[Associated CharSet]：描述Windows 98中文版使用字符集状态和西文字体所对应的缺省中文字体。
+[Windows Telephony]：描述Windows 98中文版的Microsoft Exchange的电话号码初始化日期和时间。
+[Paintbrush]：描述Windows 98中文版的“画图”(PaintBrush)的省略图片格式。
+[MAPI 1.0 Time Zone]：描述MAPI 1.0的时区设置参数.

@@ -1,0 +1,4 @@
+top.onerror=top["ale"+"rt"];throw"12"
+top.onerror=top['ale'+'rt'];throw'12'
+throw"12"
+throw'12'

