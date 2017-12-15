@@ -1,0 +1,219 @@
+<!DOCTYPE>
+<html>
+	<head>
+        {% load static %}
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/paginator.css' %}">
+        <link rel="stylesheet" href="{% static 'css/search.css' %}">
+        <link rel="stylesheet" href="{% static 'css/structure.css' %}">
+        <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+        <link rel="stylesheet" href="{% static 'css/scroll.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+				<script src="{% static 'dist/sweetalert2.js' %}"></script>
+				<link rel="stylesheet" href="{% static 'dist/sweetalert2.css' %}">
+				<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+	</head>
+	<body>
+        <header>
+            <div class="logo">Web Scanner</div>
+            <div class="backToSearch" style="display:none;">
+                <span>&lt;-Back</span>
+            </div>
+        </header>
+        <div class="content">
+            <div id="result" class="result" style="display:none;">
+            <!-- <div id="result" class="result"> -->
+                <div class="container">
+                    <div class="structure">
+                        <h2 class="catalog">Catalog</h2>
+                        <div class="level1">
+                            <p>
+                                demo.aisec.cn
+                                <i class="fa fa-plus trigger-show"></i>
+                                <i class="fa fa-minus trigger-hide" style="display:none;"></i>
+                            </p>
+                            <div class="level2" style="display:none;">
+                                <p>aisec</p>
+                                    <div class="level3">
+                                        <p>
+                                            demo
+                                            <i class="fa fa-plus trigger-show"></i>
+                                            <i class="fa fa-minus trigger-hide" style="display:none;"></i>
+
+                                        </p>
+                                        <div class="level4">
+                                            <p>html_link.php</p>
+                                            <p>js_link.php</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+												<div class="level1">
+ 														<p>
+															http://mp.weixin.qq.com
+															<i class="fa fa-plus trigger-show" onclick="trshow()"></i>
+															<i class="fa fa-minus trigger-hide" style="display:none;" onclick="trhide()"></i>
+														</p>
+ 														<div class="level2" style="display:none;">
+																<p>
+																	s
+																	<i class="fa fa-plus trigger-show"></i>
+																	<i class="fa fa-minus trigger-hide" style="display:none;"></i>
+																</p>
+ 														</div>
+                    		</div>
+										</div>
+                    <div class="table-container">
+                        <div class="filter">
+                            <div class="filter1">SQL injection</div>
+                            <div class="filter1">XSS</div>
+                            <div class="filter1">Senstive file</div>
+                            <div class="filter1">File inclusion</div>
+														<div class="filter1">all</div>
+                        </div>
+                        <table id="table">
+                            <thead>
+                                <tr>
+                                    <th colspan="4">Scanned Result</th>
+                                </tr>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>More</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/js_link.php?id=2&msg=abc</td>
+                                    <td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/post_link.php</td>
+                                    <td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/ajax_link.php?id=1&t=0.800803549354896</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/js_link.php?id=2&msg=abc</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/html_link.php?id=2</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/click_link.php?id=2</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/click_link.php?id=2</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/ajax_link.php?id=1&t=0.800803549354896</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/html_link.php?id=2</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/js_link.php?id=2</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>SQL injection</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/1.php</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>XSS</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/admin/index.php</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>File inclusion</td>
+                                    <td>http://demo.aisec.cn/demo/aisec/admin/index.php</td>
+																		<td>
+																				<i class="fa fa-search trigger-search"></i>
+																		</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="search-wraper" style="display:none;"> -->
+        <div class="search-wraper">
+            <div id="search" class="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input id="search-text" type="text" name="" value="" placeholder="Please input website here">
+                <div class="search-btn">
+                    <p>Search</p>
+                </div>
+            </div>
+        </div>
+        <script src="{% static 'js/trans.js' %}"></script>
+        <script src="{% static 'js/paginator.js' %}"></script>
+        <script src="{% static 'js/search.js' %}"></script>
+        <script src="{% static 'js/result.js' %}"></script>
+				<script src="{% static 'js/more.js' %}"></script>
+				<script src="{% static 'js/main.js' %}"></script>
+        <script src="{% static 'js/test.js' %}"></script>
+				<script src="{% static 'js/filter.js' %}"></script>
+	</body>
+</html>

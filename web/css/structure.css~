@@ -1,0 +1,16 @@
+.structure {
+    border: 1px solid #464646;
+    width: 20%;
+    color: #464646;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.collapse {
+    position: relative;
+}
+
+.trigger-show,
+.trigger-hide {
+    cursor: pointer;
+}

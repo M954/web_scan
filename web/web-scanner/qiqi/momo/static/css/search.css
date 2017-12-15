@@ -1,0 +1,44 @@
+.search-wraper {
+    height: 93vh;
+}
+
+#search-text {
+    height: 52px;
+    width: 620px;
+    border: 1px solid;
+    /*border-radius: 3px;*/
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.search .scan {
+    color: #ccc;
+    font-size: 30px;
+}
+
+.search {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.fa-search {
+    font-size: 20px!important;
+    margin-right: -35px;
+    z-index: 3;
+}
+
+.search-btn {
+    background: #777;
+    color: white;
+    height: 52px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background: #666;
+}

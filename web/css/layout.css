@@ -1,0 +1,25 @@
+#result {
+    display: flex;
+    flex-direction: column;
+}
+
+#result > div {
+    width: 100%;
+}
+
+.content .container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.content .container .table-container {
+    flex:auto;
+    border: 1px solid #999;
+}
+
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+}

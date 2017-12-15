@@ -1,0 +1,16 @@
+.paginator {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.paginator .page {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.paginator .page:hover,
+.paginator .page.curPage {
+    color: #999;
+}

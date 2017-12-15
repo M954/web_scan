@@ -1,0 +1,18 @@
+input:
+    string
+output:
+    目录
+        [
+            url1,
+            url2:{
+                url2.1
+                url2.2
+            },
+            url3,
+        ]
+    扫描结果
+        [
+            [type1, domain1, url1, link1],
+            [type1, domain1, url1, link1],
+            [type1, domain1, url1, link1],
+        ]
